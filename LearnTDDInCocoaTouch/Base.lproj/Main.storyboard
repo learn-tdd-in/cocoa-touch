@@ -36,6 +36,9 @@
                                         <accessibilityTraits key="traits" button="YES"/>
                                     </accessibility>
                                     <state key="normal" title="Save"/>
+                                    <connections>
+                                        <action selector="save" destination="3xp-yl-5MK" eventType="touchUpInside" id="qN2-8P-8Wq"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -55,6 +58,9 @@
                             <outlet property="delegate" destination="3xp-yl-5MK" id="jGL-fJ-sZ4"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="messageTextField" destination="OZZ-xr-cgC" id="Gc1-w2-ATl"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51D-tk-gZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
