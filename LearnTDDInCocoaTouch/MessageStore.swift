@@ -2,14 +2,18 @@ import Foundation
 
 class MessageStore {
 
-    var count = 0
+    var messages: [String] = []
+    
+    var count: Int {
+        return messages.count
+    }
     
     func create(_ message: String) {
-        count += 1
+        messages.append(message)
     }
     
     func get(_ index: Int) -> String {
-        return "fake message"
+        return messages[index]
     }
     
 }
