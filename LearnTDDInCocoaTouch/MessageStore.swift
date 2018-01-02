@@ -8,4 +8,8 @@ class MessageStore {
         
     }
     
+    func get(_ index: Int) -> String {
+        return "fake message"
+    }
+    
 }
