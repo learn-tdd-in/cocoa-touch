@@ -9,7 +9,7 @@ target 'LearnTDDInCocoaTouch' do
 
   target 'LearnTDDInCocoaTouchTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'EarlGrey'
   end
 
 end

@@ -1,0 +1,6 @@
+framework module Pods_LearnTDDInCocoaTouch {
+  umbrella header "Pods-LearnTDDInCocoaTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

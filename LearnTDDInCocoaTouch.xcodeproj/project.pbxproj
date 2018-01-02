@@ -13,6 +13,11 @@
 		031D41971FFB0D8B00738CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031D41961FFB0D8B00738CDE /* Assets.xcassets */; };
 		031D419A1FFB0D8B00738CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031D41981FFB0D8B00738CDE /* LaunchScreen.storyboard */; };
 		031D41A51FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031D41A41FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests.swift */; };
+		4B32BCF2F40577F8ED96D981 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = ABE0AD732ED68DBB126181AB /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		579FB8715C3FAB22FE945D98 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE0AD732ED68DBB126181AB /* EarlGrey.framework */; };
+		7558B69A86CACB1E4542B5A1 /* Pods_LearnTDDInCocoaTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72CFF61DC9E26B62D5D706C /* Pods_LearnTDDInCocoaTouch.framework */; };
+		7B417F8AC7FD9630BF727E4A /* Pods_LearnTDDInCocoaTouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A9AE3C4EEE4CA0BB3F364C /* Pods_LearnTDDInCocoaTouchTests.framework */; };
+		C5200FA6F6ECD823D802E789 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5D5DB522BFD732C81EB16 /* EarlGrey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +30,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		35CB3EE1EF3C115C40665C34 /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				4B32BCF2F40577F8ED96D981 /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		00ADC053ADEAFFFBFAFF98C7 /* Pods-LearnTDDInCocoaTouchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTDDInCocoaTouchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnTDDInCocoaTouchTests/Pods-LearnTDDInCocoaTouchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		031D418C1FFB0D8B00738CDE /* LearnTDDInCocoaTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnTDDInCocoaTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		031D418F1FFB0D8B00738CDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		031D41911FFB0D8B00738CDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +56,13 @@
 		031D41A01FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnTDDInCocoaTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031D41A41FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTDDInCocoaTouchTests.swift; sourceTree = "<group>"; };
 		031D41A61FFB0D8B00738CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F125ED073084CD5A75837DD /* Pods-LearnTDDInCocoaTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTDDInCocoaTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnTDDInCocoaTouch/Pods-LearnTDDInCocoaTouch.release.xcconfig"; sourceTree = "<group>"; };
+		5BA5D5DB522BFD732C81EB16 /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		85A9AE3C4EEE4CA0BB3F364C /* Pods_LearnTDDInCocoaTouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnTDDInCocoaTouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE0AD732ED68DBB126181AB /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Pods/EarlGrey/EarlGrey/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
+		B72CFF61DC9E26B62D5D706C /* Pods_LearnTDDInCocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnTDDInCocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C199A445579D466ADEB8EE19 /* Pods-LearnTDDInCocoaTouchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTDDInCocoaTouchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnTDDInCocoaTouchTests/Pods-LearnTDDInCocoaTouchTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF7D942545BDDAB94041D9F3 /* Pods-LearnTDDInCocoaTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTDDInCocoaTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnTDDInCocoaTouch/Pods-LearnTDDInCocoaTouch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7558B69A86CACB1E4542B5A1 /* Pods_LearnTDDInCocoaTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579FB8715C3FAB22FE945D98 /* EarlGrey.framework in Frameworks */,
+				7B417F8AC7FD9630BF727E4A /* Pods_LearnTDDInCocoaTouchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +92,8 @@
 				031D418E1FFB0D8B00738CDE /* LearnTDDInCocoaTouch */,
 				031D41A31FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests */,
 				031D418D1FFB0D8B00738CDE /* Products */,
+				F8FCB104B98668952CBFDDAF /* Frameworks */,
+				343B00DB7565ACD492A7E328 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +124,30 @@
 			children = (
 				031D41A41FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests.swift */,
 				031D41A61FFB0D8B00738CDE /* Info.plist */,
+				5BA5D5DB522BFD732C81EB16 /* EarlGrey.swift */,
 			);
 			path = LearnTDDInCocoaTouchTests;
+			sourceTree = "<group>";
+		};
+		343B00DB7565ACD492A7E328 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D942545BDDAB94041D9F3 /* Pods-LearnTDDInCocoaTouch.debug.xcconfig */,
+				1F125ED073084CD5A75837DD /* Pods-LearnTDDInCocoaTouch.release.xcconfig */,
+				00ADC053ADEAFFFBFAFF98C7 /* Pods-LearnTDDInCocoaTouchTests.debug.xcconfig */,
+				C199A445579D466ADEB8EE19 /* Pods-LearnTDDInCocoaTouchTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8FCB104B98668952CBFDDAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABE0AD732ED68DBB126181AB /* EarlGrey.framework */,
+				B72CFF61DC9E26B62D5D706C /* Pods_LearnTDDInCocoaTouch.framework */,
+				85A9AE3C4EEE4CA0BB3F364C /* Pods_LearnTDDInCocoaTouchTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 031D41A91FFB0D8B00738CDE /* Build configuration list for PBXNativeTarget "LearnTDDInCocoaTouch" */;
 			buildPhases = (
+				F9BFE93273593EC0C382E036 /* [CP] Check Pods Manifest.lock */,
 				031D41881FFB0D8B00738CDE /* Sources */,
 				031D41891FFB0D8B00738CDE /* Frameworks */,
 				031D418A1FFB0D8B00738CDE /* Resources */,
+				2CAC5F59EE4E6A7DFA0FB2FF /* [CP] Embed Pods Frameworks */,
+				60307986737EB8AF6D4AEE46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +177,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 031D41AC1FFB0D8B00738CDE /* Build configuration list for PBXNativeTarget "LearnTDDInCocoaTouchTests" */;
 			buildPhases = (
+				4D8846B89153F2493B8C37E3 /* [CP] Check Pods Manifest.lock */,
 				031D419C1FFB0D8B00738CDE /* Sources */,
 				031D419D1FFB0D8B00738CDE /* Frameworks */,
 				031D419E1FFB0D8B00738CDE /* Resources */,
+				35CB3EE1EF3C115C40665C34 /* EarlGrey Copy Files */,
+				CC74C0BA0C3A89D386250DFA /* [CP] Embed Pods Frameworks */,
+				96DE7C95166C8763DBB60463 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +255,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CAC5F59EE4E6A7DFA0FB2FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnTDDInCocoaTouch/Pods-LearnTDDInCocoaTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8846B89153F2493B8C37E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnTDDInCocoaTouchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60307986737EB8AF6D4AEE46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnTDDInCocoaTouch/Pods-LearnTDDInCocoaTouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DE7C95166C8763DBB60463 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnTDDInCocoaTouchTests/Pods-LearnTDDInCocoaTouchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC74C0BA0C3A89D386250DFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearnTDDInCocoaTouchTests/Pods-LearnTDDInCocoaTouchTests-frameworks.sh",
+				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGrey.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnTDDInCocoaTouchTests/Pods-LearnTDDInCocoaTouchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9BFE93273593EC0C382E036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnTDDInCocoaTouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		031D41881FFB0D8B00738CDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -209,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				031D41A51FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests.swift in Sources */,
+				C5200FA6F6ECD823D802E789 /* EarlGrey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +515,7 @@
 		};
 		031D41AA1FFB0D8B00738CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF7D942545BDDAB94041D9F3 /* Pods-LearnTDDInCocoaTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +531,7 @@
 		};
 		031D41AB1FFB0D8B00738CDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F125ED073084CD5A75837DD /* Pods-LearnTDDInCocoaTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +547,7 @@
 		};
 		031D41AD1FFB0D8B00738CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00ADC053ADEAFFFBFAFF98C7 /* Pods-LearnTDDInCocoaTouchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +565,7 @@
 		};
 		031D41AE1FFB0D8B00738CDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C199A445579D466ADEB8EE19 /* Pods-LearnTDDInCocoaTouchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
