@@ -11,6 +11,7 @@
 		031D41951FFB0D8B00738CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031D41931FFB0D8B00738CDE /* Main.storyboard */; };
 		031D41971FFB0D8B00738CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031D41961FFB0D8B00738CDE /* Assets.xcassets */; };
 		031D419A1FFB0D8B00738CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031D41981FFB0D8B00738CDE /* LaunchScreen.storyboard */; };
+		031D41B11FFB0F3000738CDE /* CreatingAMessageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031D41B01FFB0F3000738CDE /* CreatingAMessageTest.swift */; };
 		4B32BCF2F40577F8ED96D981 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = ABE0AD732ED68DBB126181AB /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		579FB8715C3FAB22FE945D98 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE0AD732ED68DBB126181AB /* EarlGrey.framework */; };
 		7558B69A86CACB1E4542B5A1 /* Pods_LearnTDDInCocoaTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72CFF61DC9E26B62D5D706C /* Pods_LearnTDDInCocoaTouch.framework */; };
@@ -52,6 +53,7 @@
 		031D419B1FFB0D8B00738CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031D41A01FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnTDDInCocoaTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031D41A61FFB0D8B00738CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031D41B01FFB0F3000738CDE /* CreatingAMessageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAMessageTest.swift; sourceTree = "<group>"; };
 		1F125ED073084CD5A75837DD /* Pods-LearnTDDInCocoaTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTDDInCocoaTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnTDDInCocoaTouch/Pods-LearnTDDInCocoaTouch.release.xcconfig"; sourceTree = "<group>"; };
 		5BA5D5DB522BFD732C81EB16 /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
 		85A9AE3C4EEE4CA0BB3F364C /* Pods_LearnTDDInCocoaTouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnTDDInCocoaTouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,10 +119,19 @@
 		031D41A31FFB0D8B00738CDE /* LearnTDDInCocoaTouchTests */ = {
 			isa = PBXGroup;
 			children = (
+				031D41AF1FFB0F0500738CDE /* E2E */,
 				031D41A61FFB0D8B00738CDE /* Info.plist */,
 				5BA5D5DB522BFD732C81EB16 /* EarlGrey.swift */,
 			);
 			path = LearnTDDInCocoaTouchTests;
+			sourceTree = "<group>";
+		};
+		031D41AF1FFB0F0500738CDE /* E2E */ = {
+			isa = PBXGroup;
+			children = (
+				031D41B01FFB0F3000738CDE /* CreatingAMessageTest.swift */,
+			);
+			path = E2E;
 			sourceTree = "<group>";
 		};
 		343B00DB7565ACD492A7E328 /* Pods */ = {
@@ -364,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031D41B11FFB0F3000738CDE /* CreatingAMessageTest.swift in Sources */,
 				C5200FA6F6ECD823D802E789 /* EarlGrey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
